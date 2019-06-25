@@ -1,5 +1,3 @@
-//Okay welcome everyone to add the bot to the server is this link: https://discordapp.com/api/oauth2/authorize?client_id=591602912942227466&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2Fhackweek&scope=bot ...the token is = NTkxNjAyOTEyOTQyMjI3NDY2.XQzMDQ.o16NwXCPA_oYfil_X72Zr0pOIKM
-const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
 const log = require('./logger'); 
