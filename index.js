@@ -6,7 +6,7 @@ const Bot_Version = "1.0.0";
 const config = require('./config.json');
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 /*bot.on('ready', async () => {
-    console.log('\nStarting Bot...\nNode version: ' + process.version + '\nDiscord.js version: ' + Discord.version + '\n')
+    console.log('\nStarting Bot...\nNode version: ' + '\nDiscord.js version: ' + Discord.version + '\n')
     console.log('\nThis Bot is online! Running on version: ' + BOT_VERSION + '\n')*/
 client.commands = new Discord.Collection();
 client.on('ready', () => {
