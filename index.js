@@ -2,6 +2,7 @@ const client = new Discord.Client();
 const fs = require('fs');
 const log = require('./logger'); 
 const fetch = require('node-fetch'); 
+const Bot_Version = "1.0.0";
 const config = require('./config.json');
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 client.commands = new Discord.Collection();
